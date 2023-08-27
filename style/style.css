@@ -146,3 +146,35 @@ main section{
     font-size: 16px;
     font-weight: 400;
 }
+/* Resume-section */
+.rusume-continer{
+    display: flex;
+    gap: 20px;
+}
+.rusume-column-tittle{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.rusume-column-sub-tittle{
+    color:#474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.rusume-column-description{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.rusume-column-sub-description{
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+.download{
+    text-align: center;
+    padding: 30px;
+}
