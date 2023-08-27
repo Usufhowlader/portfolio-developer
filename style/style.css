@@ -10,7 +10,6 @@ body{
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
-    
 }
 /* nav-section */
 nav{
@@ -77,4 +76,43 @@ nav a{
 .banner-photo{
     width: 600px;
     height: 500px;
+}
+/* main-section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about-section */
+.about{
+   border-radius: 10px;
+   background: #fff6f3;
+   margin: 80px 0;
+   padding: 130px;
+}
+.section-tittle{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.about-section-description{
+    color:#757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.about-info{
+  display: flex;
+  justify-content: space-around;
+}
+.info-tittle{
+    color:#757575;
+    text-align: center;
+    font-size: 14px;
+}
+.info-description{
+    color:#474747;
+    font-size: 15px;
+    font-weight: 700;
+    
 }
